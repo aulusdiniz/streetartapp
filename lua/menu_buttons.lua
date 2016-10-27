@@ -1,7 +1,7 @@
 app_tree = {level=1, root=create_node('root', 'root', 'no_crumb', 1,{
 	create_node('SATAO-BTN-MENU','img','no_crumb',1,{
 		create_node('BTN-PERFIL','img','no_crumb',1,{
-			create_node('Perfil_Satao','img','no_crumb')
+			create_node('texto','txt','no_crumb')
 		}),
 		create_node('BTN-GALERIA','img','no_crumb',1,{
 			create_node('01_Satao_CED_Darcy_Ribeiro_Paranoa','img','no_crumb')
@@ -11,60 +11,10 @@ app_tree = {level=1, root=create_node('root', 'root', 'no_crumb', 1,{
 
 img_sizes = {
 			{name="SATAO-BTN-MENU",W=262,H=118},
-			{name="TOYS-BTN-MENU",W=262,H=118},
-			{name="OMYK-BTN-MENU",W=262,H=118},
-			{name="SIREN-BTN-MENU",W=262,H=118},
 			{name="BTN-PERFIL",W=262,H=118},
 			{name="BTN-GALERIA",W=262,H=118},
-			{name="8_botao_Links",W=253,H=107},
-			{name="9_Foto_Satao",W=206,H=573},
-			{name="10_Foto_Toys",W=206,H=565},
-			{name="11_Foto_Siren",W=206,H=565},
-			{name="12_Foto_Omik",W=206,H=565},
-			{name="Perfil_Toys",W=732,H=414},
-			{name="Perfil_Omyk",W=732,H=414},
-			{name="Perfil_Siren",W=732,H=414},
 			{name="Perfil_Satao",W=732,H=414},
-			{name="01_Satao_CED_Darcy_Ribeiro_Paranoa",W=579,H=492},
-			{name="02_Satao_Extra_QNM_11_Cei_Sul",W=579,H=492},
-			{name="03_Satao_Extra_QNM_11_Cei_Sul",W=579,H=492},
-			{name="04_Satao_P_Sul_Cei_Sul",W=579,H=492},
-			{name="05_Satao_P_Sul_Cei_Sul",W=579,H=492},
-			{name="06_Satao_Paranoa",W=579,H=492},
-			{name="07_Satao_Taguatinga",W=579,H=492},
-			{name="08_Satao_Extra_QNM_11_Cei_Sul",W=579,H=492},
-			{name="09_Satao_Sobradinho",W=579,H=492},
-			{name="10_Satao_Ceilandia",W=579,H=492},
-			{name="01_Toys_Estacao_Metro_Galeria",W=579,H=492},
-			{name="02_Toys_VictoriaHaus_SAAN",W=579,H=492},
-			{name="03_Toys_SolVento_112_Sul",W=579,H=492},
-			{name="04_Toys_Projecao_MAB",W=579,H=492},
-			{name="05_Toys_Teatro_Dulcina",W=579,H=492},
-			{name="06_Toys_Ponte_Honest_Guimaraes",W=579,H=492},
-			{name="07_Toys_509_Sul",W=579,H=492},
-			{name="08_Toys_CEAV_Jr_Aguas_Claras",W=579,H=492},
-			{name="09_Toys_Festa_Drop",W=579,H=492},
-			{name="10_Toys_Passagem_Asa_Sul",W=579,H=492},
-			{name="01_Omik_Control_Egypt_Guariroba_CEI_Sul",W=579,H=492},
-			{name="02_Omik_Levitation_CEI_Centro",W=579,H=492},
-			{name="03_Omik_SelvAge_SAMDU_Norte",W=579,H=492},
-			{name="04_Omik_Nextfood_P_Sul",W=579,H=492},
-			{name="05_Omik_CEI_Estacao_Cent_Metro",W=579,H=492},
-			{name="06_Omik_Asa_Norte_107",W=579,H=492},
-			{name="07_Omik_SIG_Correio",W=579,H=492},
-			{name="08_Omik_Cei_Centro",W=579,H=492},
-			{name="09_Omik_Asa_Norte",W=579,H=492},
-			{name="10_Omyk_Original_Cafe_210_Sul_2",W=579,H=492},
-			{name="01_Siren_Conic_Fac_Dulcina",W=579,H=492},
-			{name="02_Siren_505_506_W3_sul",W=579,H=492},
-			{name="03_Siren_Banca_do_Brito_106_N",W=579,H=492},
-			{name="04_Siren_Banca_do_Brito_106_N",W=579,H=492},
-			{name="05_Siren_109_Sul",W=579,H=492},
-			{name="06_Siren_SQN_404",W=579,H=492},
-			{name="07_Siren_512_W3_Sul",W=579,H=492},
-			{name="08_Siren_707_Sul",W=579,H=492},
-			{name="09_Siren_Fac_Dulcina",W=579,H=492},
-			{name="10_Siren_SQN_409_410",W=579,H=492}
+			{name="01_Satao_CED_Darcy_Ribeiro_Paranoa",W=579,H=492}
 			}
 
 

@@ -15,12 +15,12 @@ node is a table containing 2 or 4 fields:
 given, the current node will not have branches.
 ]]
 function create_node(media, media_type, img_crumb, focus, branches)
+	print("Creating node ", media)
 	if not(focus) or not(branches) then
 		return {media=media, media_type=media_type, img_crumb=img_crumb}
 	else
 		return {media=media, media_type=media_type, img_crumb=img_crumb, focus=focus, branches=branches}
 	end
-	print("Creating node ", media)
 end
 
 function read_node(tree_menu)
@@ -37,7 +37,7 @@ function read_node(tree_menu)
 end
 
 function read_branches(tree_node, border, box_font)
-		print("reading nodes, tree_node =", tree_menu)
+		print("reading nodes, tree_node =", tree_node)
 	local branches = {}
 	for i=1,#(tree_node.branches) do
 		branches[i] = {}
