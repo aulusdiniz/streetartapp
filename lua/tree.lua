@@ -20,6 +20,7 @@ function create_node(media, media_type, img_crumb, focus, branches)
 	else
 		return {media=media, media_type=media_type, img_crumb=img_crumb, focus=focus, branches=branches}
 	end
+	print("Creating node ", media)
 end
 
 function read_node(tree_menu)
@@ -36,6 +37,7 @@ function read_node(tree_menu)
 end
 
 function read_branches(tree_node, border, box_font)
+		print("reading nodes, tree_node =", tree_menu)
 	local branches = {}
 	for i=1,#(tree_node.branches) do
 		branches[i] = {}

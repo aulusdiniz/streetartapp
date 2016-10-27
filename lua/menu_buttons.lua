@@ -1,67 +1,13 @@
 app_tree = {level=1, root=create_node('root', 'root', 'no_crumb', 1,{
-	create_node('SATAO-BTN-MENU','img','none',1,{
-		create_node('BTN-PERFIL','img','none',1,{
-			create_node('Perfil_Satao','none','img')}),
-		create_node('BTN-GALERIA','img','none',1,{
-			create_node('01_Satao_CED_Darcy_Ribeiro_Paranoa','img','none'),
-			create_node('02_Satao_Extra_QNM_11_Cei_Sul','img','none'),
-			create_node('03_Satao_Extra_QNM_11_Cei_Sul','img','none'),
-			create_node('04_Satao_P_Sul_Cei_Sul','img','none'),
-			create_node('05_Satao_P_Sul_Cei_Sul','img','none'),
-			create_node('06_Satao_Paranoa','img','none'),
-			create_node('07_Satao_Taguatinga','img','none'),
-			create_node('08_Satao_Extra_QNM_11_Cei_Sul','img','none'),
-			create_node('09_Satao_Sobradinho','img','none'),
-			create_node('10_Satao_Ceilandia','img','none')})
-			}
-		),
-	create_node('TOYS-BTN-MENU','img','none',1,{
-		create_node('BTN-PERFIL','img','none',1,{
-			create_node('Perfil_Toys','img','none')}),
-		create_node('BTN-GALERIA','img','none',1,{
-			create_node('01_Toys_Estacao_Metro_Galeria','img','none'),
-			create_node('02_Toys_VictoriaHaus_SAAN','img','none'),
-			create_node('03_Toys_SolVento_112_Sul','img','none'),
-			create_node('04_Toys_Projecao_MAB','img','none'),
-			create_node('05_Toys_Teatro_Dulcina','img','none'),
-			create_node('06_Toys_Ponte_Honest_Guimaraes','img','none'),
-			create_node('07_Toys_509_Sul','img','none'),
-			create_node('08_Toys_CEAV_Jr_Aguas_Claras','img','none'),
-			create_node('09_Toys_Festa_Drop','img','none'),
-			create_node('10_Toys_Passagem_Asa_Sul','img','none')
-			})}),
-	create_node('SIREN-BTN-MENU','img','none',1,{
-		create_node('BTN-PERFIL','img','none',1,{
-			create_node('Perfil_Siren','img','none')}),
-		create_node('BTN-GALERIA','img','none',1,{
-			create_node('01_Siren_Conic_Fac_Dulcina','img','none'),
-			create_node('02_Siren_505_506_W3_sul','img','none'),
-			create_node('03_Siren_Banca_do_Brito_106_N','img','none'),
-			create_node('04_Siren_Banca_do_Brito_106_N','img','none'),
-			create_node('05_Siren_109_Sul','img','none'),
-			create_node('06_Siren_SQN_404','img','none'),
-			create_node('07_Siren_512_W3_Sul','img','none'),
-			create_node('08_Siren_707_Sul','img','none'),
-			create_node('09_Siren_Fac_Dulcina','img','none'),
-			create_node('10_Siren_SQN_409_410','img','none')
-			})}),
-	create_node('OMYK-BTN-MENU','img','none',1,{
-		create_node('BTN-PERFIL','img','none',1,{
-			create_node('Perfil_Omyk','img','none')}),
-		create_node('BTN-GALERIA','img','none',1,{
-			create_node('01_Omik_Control_Egypt_Guariroba_CEI_Sul','img','none'),
-			create_node('02_Omik_Levitation_CEI_Centro','img','none'),
-			create_node('03_Omik_SelvAge_SAMDU_Norte','img','none'),
-			create_node('04_Omik_Nextfood_P_Sul','img','none'),
-			create_node('05_Omik_CEI_Estacao_Cent_Metro','img','none'),
-			create_node('06_Omik_Asa_Norte_107','img','none'),
-			create_node('07_Omik_SIG_Correio','img','none'),
-			create_node('08_Omik_Cei_Centro','img','none'),
-			create_node('09_Omik_Asa_Norte','img','none'),
-			create_node('10_Omyk_Original_Cafe_210_Sul_2','img','none')
-			})})
+	create_node('SATAO-BTN-MENU','img','no_crumb',1,{
+		create_node('BTN-PERFIL','img','no_crumb',1,{
+			create_node('Perfil_Satao','img','no_crumb')
+		}),
+		create_node('BTN-GALERIA','img','no_crumb',1,{
+			create_node('01_Satao_CED_Darcy_Ribeiro_Paranoa','img','no_crumb')
+		})
 	})
-}
+})}
 
 img_sizes = {
 			{name="SATAO-BTN-MENU",W=262,H=118},
